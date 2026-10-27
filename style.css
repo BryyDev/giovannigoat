@@ -6,7 +6,12 @@
     background-image: url(arroganti.webp);
 
     &:hover {
-        background-image: url(Galactic\ Eyes\ Behind\ Silver\ Glasses.png);
+        background-image: url(arroganti2.0.jpeg);
+        background-size:cover;
+        background-position:center ;
+
+
+
     }
 
     & p {

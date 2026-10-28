@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./number1-2.0.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+section.container {
+    
+    & button {
+        border-radius: 30px;
+        border: none;
+        
+        & a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            padding: 10px;
+            gap: 20px;
+            text-decoration: none;
+            color: black;
+            
+            & img {
+                width: 50px;
+            }
+            
+            & span {
+                font-size: 16px;
+            }
+        }
+        
+    }
+    
+    & div.video {
+        display: flex;
+        justify-content: center;
+        opacity: 0;
+        transition: .3s ease-in;
+        
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

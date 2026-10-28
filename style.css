@@ -1,3 +1,20 @@
+body {
+    background-image: url(./number1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(1, 182, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: black;
+}
+
 .img {
     border: solid rgb(126, 52, 52) 6px;
     border-radius: 50px;
@@ -34,6 +51,29 @@
         }
     }
 
+    & button {
+        border-radius: 30px;
+        border: none;
 
+        & a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            padding: 10px;
+            gap: 20px;
+            text-decoration: none;
+            color: black;
+    
+            & img {
+                width: 50px;
+            }
+    
+            & span {
+                font-size: 16px;
+            }
+        }
+    }
+    
 
 }
